@@ -17,3 +17,4 @@ let myTestOutput = packageInstaller(["KittenService: ", "Leetmeme: Cyberportal",
     "CamelCaser: KittenService", "Fraudstream: Leetmeme", "Ice: "])
     console.log(myTestOutput);
 
+//First Test in Console - output is an array - change function
