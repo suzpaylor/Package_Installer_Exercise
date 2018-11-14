@@ -14,7 +14,7 @@ function packageInstaller(input) {
     return result;
     
 }
-let myTestOutput = packageInstaller(["KittenService: CamelCaser", "CamelCaser: "])
+let myTestOutput = packageInstaller(["KittenService: ", "Leetmeme: Cyberportal", "Cyberportal: Ice", "CamelCaser: KittenService", "Fraudstream: ", "Ice: Leetmeme"]);
     console.log(myTestOutput);
 
-//Test Two in Console - Looks Good!
+//Test Three in Console - Invalid Input is rejected!  Maximum call stack size exceeded at Loop
