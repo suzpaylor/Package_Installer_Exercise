@@ -10,7 +10,8 @@ function packageInstaller(input) {
             result.add(key);
         };
     pairs.forEach(loop); 
-    return [...result];
+    result = Array.from(result).join(','); // change to a string - test again
+    return result;
     
 }
 let myTestOutput = packageInstaller(["KittenService: ", "Leetmeme: Cyberportal", "Cyberportal: Ice",
