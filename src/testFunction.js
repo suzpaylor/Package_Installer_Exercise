@@ -10,7 +10,7 @@ function packageInstaller(input) {
             result.add(key);
         };
     pairs.forEach(loop); 
-    result = Array.from(result).join(','); // change to a string - test again
+    result = Array.from(result).join(', '); // after console test two - realized I need a space here :)
     return result;
     
 }
