@@ -6,27 +6,27 @@ Creating a package installer that can handle dependencies.  Write the code that 
 
 Started by testing PackageInstaller function in the console.
 
-<img src="./consoleTest1.GIF">
+<img src="images/consoleTest1.GIF">
 
 Invalid input test in the console.
 
-<img src="./consoleTest2.GIF">
+<img src="images/consoleTest2.GIF">
 
 ## Tests using jest
 
 Two working tests.
 
-<img src="./2testsPassed.GIF">
+<img src="images/2testsPassed.GIF">
 
 Three working tests.
 
-<img src="./3testsPassed.GIF">
+<img src="images/3testsPassed.GIF">
 
 Four working tests.
 
-<img src="./4testsPassed.GIF">
+<img src="images/4testsPassed.GIF">
 
 Inavlid input.
 
-<img src="./InvalidInputFailed.GIF">
+<img src="images/InvalidInputFailed.GIF">
 
