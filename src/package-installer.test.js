@@ -34,4 +34,12 @@ describe('packageInstaller', () => {
     })
   })
 
+  describe('The following input should be rejected because it contains a cycle', () => {
+    it('a valid output would be', () => {
+      let actual = installer(["KittenService: ", "Leetmeme: Cyberportal", "Cyberportal: Ice", "CamelCaser: KittenService", "Fraudstream: ", "Ice: Leetmeme"])
+      expect(actual).toEqual(ErrorEvent)
+    })
+  })
+
+
 })
