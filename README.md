@@ -4,7 +4,7 @@ Creating a package installer that can handle dependencies.  Write the code that 
 
 ## Tests in console
 
-Started by successfuly testing valid input in the console.
+Started by testing PackageInstaller function in the console.
 
 <img src="./consoleTest1.GIF">
 
