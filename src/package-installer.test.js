@@ -27,5 +27,11 @@ describe('packageInstaller', () => {
     })
   })
 
+  describe('given a list of packages with dependencies', () => {
+    it('a valid output would be', () => {
+      let actual = installer(["KittenService: ", "Leetmeme: Cyberportal", "Cyberportal: Ice", "CamelCaser: KittenService", "Fraudstream: Leetmeme", "Ice: "])
+      expect(actual).toEqual("KittenService, Ice, Cyberportal, Leetmeme, CamelCaser, Fraudstream")
+    })
+  })
 
 })
