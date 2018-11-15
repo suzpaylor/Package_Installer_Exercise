@@ -1,20 +1,32 @@
 # Package_Installer_Exercise
-Creating a package installer that can handle dependencies
+Creating a package installer that can handle dependencies.  Write the code that will determine the order of install.
 
 
 ## Tests in console
 
-Liri is not as cool as Siri but it is a node.js command line application that takes in parameters and gives back data. The user must enter 'node liri.js' into the command line followed by a command and then a search parameter.  
+Started by successfuly testing valid input in the console.
 
-There are four possible Commands: 'concert-this', 'spotify-this-song', 'movie-this', or 'do-what-it-says'
+<img src="./consoleTest1.GIF">
 
-## 'concert-this'
+Invalid input test in the console.
 
-🎤👨‍🎤👩‍🎤🎸 The 'concert-this' command uses the Bandsintown API to retrive all upcoming concerts for an artist that is searched.  Each venue, location and date is provided for all results.  Moment.js is used to format the date from the Bandsintown API.  
+<img src="./consoleTest2.GIF">
 
-In the following example the user is looking for the next Taylor Swift Concert:
-node liri.js concert-this "Taylor Swift"
+## Tests using jest
 
-<img src="./concert-this.GIF">
+Two working tests.
 
-## 'spotify-this-song'
+<img src="./2testsPassed.GIF">
+
+Three working tests.
+
+<img src="./3testsPassed.GIF">
+
+Four working tests.
+
+<img src="./4testsPassed.GIF">
+
+Inavlid input.
+
+<img src="./InvalidInputFailed.GIF">
+
